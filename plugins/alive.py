@@ -34,11 +34,10 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/fa34c7c1016aae47a6354.jpg",
+        photo=f"https://telegra.ph/file/e06a886b866383dc9f507.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━
-hello, saya bot vc player generasi berikutnya yang super cepat 
-dan tidak ada masalah lag dengan kualitas suara terbaik untuk grup telegram
-jika ada pertanyaan dm ke pemilik saya [𝐊𝐋𝐘 ༱ 𝐇𝐀𝐍𝐃𝐁𝐄𝐀 🇦🇱](https://t.me/Klyuserbot)...
+Hanglo, saya adalah bot yang gagal produk, nama saya adalah Kiana88, sekaligus bot dari generasi terbaru owner saya adalah
+[Kiana ༱ Doang 🇦🇱](https://t.me/depapancake)...
 ━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
     [
@@ -46,11 +45,11 @@ jika ada pertanyaan dm ke pemilik saya [𝐊𝐋𝐘 ༱ 𝐇𝐀𝐍𝐃𝐁�
             InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/suportsipuserbot"),
-            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/suportNande")
+            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/troubsnout"),
+            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/depapancake")
         ],
         [
-            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/file/fa34c7c1016aae47a6354.jpg"),
+            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/file/e06a886b866383dc9f507.jpg"),
             InlineKeyboardButton("⚕️ ᴍᴏʀᴇ ɪɴғᴏ", callback_data="moreinfo")
         ]
    
@@ -62,13 +61,13 @@ jika ada pertanyaan dm ke pemilik saya [𝐊𝐋𝐘 ༱ 𝐇𝐀𝐍𝐃𝐁�
 @Client.on_message(commandpro(["/start", "/alive", "/repo"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/fa34c7c1016aae47a6354.jpg",
+        photo=f"https://telegra.ph/file/e06a886b866383dc9f507.jpg",
         caption=f"""klik pada tombol yang diberikan di bawah ini untuk mengetahui lebih banyak tentang saya. """,
         reply_markup=InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/suportsipuserbot"),
-                InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/suportNande"),
+                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/troubsnout"),
+                InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/depapancake"),
             ]
         ]
      ),
@@ -80,6 +79,6 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text("ᴘɪɴɢ..... 👀")
     delta_ping = time() - start
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/2256701b54c183ab45e11.jpg",
+        photo=f"https://telegra.ph/file/e06a886b866383dc9f507.jpg",
         caption=f"ᴘ ᴏ ɴ ɢ ! \n" f"`{delta_ping * 1000:.3f} ᴍs`")
 

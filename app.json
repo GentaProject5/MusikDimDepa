@@ -1,17 +1,17 @@
 {
-    "name": "Dim-Musik",
-    "logo": "https://telegra.ph/file/fa34c7c1016aae47a6354.jpg",
-    "description": "Hi Saya Adalah Eviana,Simple Bot Untuk Memutar Music Di Telegram & Group Anda ✨.",
+    "name": "Kiana-Musik",
+    "logo": "https://telegra.ph/file/e06a886b866383dc9f507.jpg",
+    "description": "Hi Saya Adalah Kiana,Saya adalah Bot Untuk Memutar Music Di Monokrom ✨.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Sumit9969/DarkxMusic",
+    "repository": "https://github.com/GentaProject5/MusikDimDepa",
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "𝚈𝚘𝚞𝚛 𝙰𝚙𝚙 𝙸𝙳",
+            "description": "𝚈𝚘𝚞𝚛 Heart 𝙸𝙳",
             "required": true
         },
         "API_HASH": {
-            "description": "𝚈𝚘𝚞𝚛 𝙰𝚙𝚙 𝙷𝚊𝚜𝚑",
+            "description": "𝚈𝚘𝚞𝚛 Heart 𝙷𝚊𝚜𝚑",
             "required": true
        },
         "BOT_USERNAME": {

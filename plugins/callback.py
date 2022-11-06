@@ -3,10 +3,9 @@ from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
 from modules.config import BOT_USERNAME
 
 HELP_TEXT = """
-ʜᴇʟʟᴏ [{}](tg://user?id={})
-ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴀɴᴅ ɴᴏ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs
-ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [𝐊𝐋𝐘 ༱ 𝐇𝐀𝐍𝐃𝐁𝐄𝐀 🇦🇱](https://t.me/Klyuserbot)...
+Hanglo [{}](tg://user?id={})
+Saya adalah bot bernama Kiana88 dari generasi terbaru dan tercepat dengan kecanggihan 4.0
+My Owner[𝘋𝘦𝘱⋏`メϻoͥήoͣkͫroϻ](https://t.me/depapancake)...
 ━━━━━━━━━━━━━━━━━━━**"""
 
 
@@ -19,8 +18,8 @@ async def home(_, query: CallbackQuery):
             InlineKeyboardButton("➕ Tambahkan Saya Ke Group Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🫂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+            InlineKeyboardButton("🫂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/troubsnout"),
+            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+biNrspIE2zFmYzk1")
         ],
         [
             InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Dim-COMMAND-09-23-3"),
@@ -46,15 +45,15 @@ Dim Musik untuk Telegram :""",
             [
                 [
                     InlineKeyboardButton(
-                        "🗯️ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/suportsipuserbot"),
+                        "🗯️ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/troubsnout"),
                     InlineKeyboardButton(
-                        "🌐 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/suportNande")
+                        "🌐 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/depapancake")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🍄 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/Klyuserbot"),
+                        "🍄 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/depapancake"),
                     InlineKeyboardButton(
-                        "🍀 ᴏᴛʜᴇʀ ɪɴғᴏ", callback_data="repoinfo")
+                        "🍀 ᴏᴛʜᴇʀ ɪɴғᴏ", url="https://t.me/depapancake")
                 ],
                 [
                     InlineKeyboardButton("⟲ ʙᴀᴄᴋ ⟳", callback_data="home")
@@ -78,8 +77,7 @@ async def reinfo(_, query: CallbackQuery):
 async def repoinfo(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""Selengkapnya Tentang Saya : 
-Tidak banyak fitur lainnya dan tolong bergabung dengan saluran atau saluran Instagram.
-Repo ini hanya dibuat untuk menyebarkan bot musik yang kuat di heroku tanpa menghadapi masalah pemblokiran akun heroku.
+Saya hanya gabut gaada info lebih lanjut karna Kiana88 sibuk dengan Slot nya WD tiap hari!
 .
 
 """,
@@ -87,15 +85,15 @@ Repo ini hanya dibuat untuk menyebarkan bot musik yang kuat di heroku tanpa meng
             [
                 [
                     InlineKeyboardButton(
-                        "🔗 ɢɪᴛʜᴜʙ", url=f"https://github.com/sip-Userbot/Dim-Musik"),
+                        "🔗 ɢᴄ", url=f"https://t.me/+biNrspIE2zFmYzk1"),
                     InlineKeyboardButton(
-                        "💌 Instagram", url=f"https://instagram.com/kanjeng_47?igshid=YmMyMTA2M2Y=")
+                        "💌 ᴄʜ", url=f"https://t.me/troubsnout")
                 ],
                 [
                     InlineKeyboardButton(
-                        "👾 ʙᴏᴛ ʟɪsᴛs", url="https://t.me/suportsipuserbot"),
+                        "👾 ᴏᴡɴ", url="https://t.me/depapancake"),
                     InlineKeyboardButton(
-                        "🤤 ᴘᴏʀɴ ʜᴜʙ", url="http://t.me/suportNande")
+                        "🤤 ᴄᴏ ᴏᴡɴ", url="https://t.me/kiana88re")
                 ],
                 [
                     InlineKeyboardButton("⟲ ʙᴀᴄᴋ ⟳", callback_data="moreinfo")

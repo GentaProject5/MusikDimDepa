@@ -154,7 +154,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 Mencari...**")
+    lel = await message.reply("**🔎 Searching...**")
    
     bsdk = message.from_user.mention
 
@@ -188,12 +188,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"** silakan tambahkan asisten atau kontak secara manual [𝐊𝐋𝐘 ༱ 𝐇𝐀𝐍𝐃𝐁𝐄𝐀 🇦🇱](https://t.me/Klyuserbot)** ")
+                        f"** silakan tambahkan asisten atau kontak secara manual [𝘋𝘦𝘱⋏`メϻoͥήoͣkͫroϻ](https://t.me/depapancake)** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**silakan tambahkan asisten atau kontak secara manual [𝐊𝐋𝐘 ༱ 𝐇𝐀𝐍𝐃𝐁𝐄𝐀 🇦🇱](https://t.me/Klyuserbot)*")
+            f"**silakan tambahkan asisten atau kontak secara manual [𝘋𝘦𝘱⋏`メϻoͥήoͣkͫroϻ🇱](https://t.me/depapancake)*")
         return
     
     audio = (
@@ -211,7 +211,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/00411492c1fb4c0a91f18.jpg"
+        thumb_name = "https://telegra.ph/file/e06a886b866383dc9f507.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -219,8 +219,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/suportsipuserbot"),
-                InlineKeyboardButton(text="● ᴜᴘᴅᴀᴛᴇs ●", url=f"https://t.me/suportNande"),
+                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/troubsnout"),
+                InlineKeyboardButton(text="● ɢᴄs ●", url=f"https://t.me/+biNrspIE2zFmYzk1"),
             ],
             [   InlineKeyboardButton(text="● ᴄʟᴏsᴇ ●", callback_data="close_play")
             ]
@@ -258,8 +258,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/suportsipuserbot"),
-                InlineKeyboardButton(text="● ᴜᴘᴅᴀᴛᴇs ●", url=f"https://t.me/suportNande"),
+                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/+biNrspIE2zFmYzk1"),
+                InlineKeyboardButton(text="● ᴜᴘᴅᴀᴛᴇs ●", url=f"https://t.me/troubsnout"),
             ],
             [   InlineKeyboardButton(text="● ᴄʟᴏsᴇ ●", callback_data="close_play")
             ]
@@ -268,14 +268,14 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/00411492c1fb4c0a91f18.jpg"
+            thumb_name = "https://telegra.ph/file/e06a886b866383dc9f507.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/suportsipuserbot"),
-                InlineKeyboardButton(text="● ᴜᴘᴅᴀᴛᴇs ●", url=f"https://t.me/suportNande"),
+                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/+biNrspIE2zFmYzk1"),
+                InlineKeyboardButton(text="● ᴜᴘᴅᴀᴛᴇs ●", url=f"https://t.me/troubsnout"),
             ],
             [   InlineKeyboardButton(text="● ᴄʟᴏsᴇ ●", callback_data="close_play")
             ]
@@ -293,7 +293,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             await message.reply_photo(
-                     photo=f"https://te.legra.ph/file/71bdd6e8c353398a4034a.jpg",
+                     photo=f"https://telegra.ph/file/e06a886b866383dc9f507.jpg",
                      caption="💌 **ᴜsᴀɢᴇ: /play beri judul lagu untuk memutar musik**"
                     
             )
@@ -330,8 +330,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/suportsipuserbot"),
-                InlineKeyboardButton(text="● ᴜᴘᴅᴀᴛᴇs ●", url=f"https://t.me/suportNande"),
+                InlineKeyboardButton(text="● sᴜᴘᴘᴏʀᴛ ●", url=f"https://t.me/+biNrspIE2zFmYzk1"),
+                InlineKeyboardButton(text="● ᴜᴘᴅᴀᴛᴇs ●", url=f"https://t.me/troubsnout"),
             ],
             [   InlineKeyboardButton(text="● ᴄʟᴏsᴇ ●", callback_data="close_play")
             ]
@@ -454,7 +454,7 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/fa8358cbb060a1b92339a.jpg",
+                              photo="https://telegra.ph/file/e06a886b866383dc9f507.jpg",
                               caption="**✅ bot sudah dimuat ulang dengan benar !\n✅ daftar admin telah diperbarui !**"
     )
 

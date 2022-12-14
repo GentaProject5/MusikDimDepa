@@ -19,10 +19,10 @@ async def home(_, query: CallbackQuery):
         ],
         [
             InlineKeyboardButton("🫂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/troubsnout"),
-            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+biNrspIE2zFmYzk1")
+            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+rktVBMYSOLM4ZmE1")
         ],
         [
-            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Dim-COMMAND-09-23-3"),
+            InlineKeyboardButton("🧰 ᴏᴡɴᴇʀ", url="https://t.me/depadidaw"),
             InlineKeyboardButton("⚕️ ᴍᴏʀᴇ ɪɴғᴏ", callback_data="moreinfo")
         ]
    
@@ -47,13 +47,13 @@ Dim Musik untuk Telegram :""",
                     InlineKeyboardButton(
                         "🗯️ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/troubsnout"),
                     InlineKeyboardButton(
-                        "🌐 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/depapancake")
+                        "🌐 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/depadidaw")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🍄 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/depapancake"),
+                        "🍄 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/depadidaw"),
                     InlineKeyboardButton(
-                        "🍀 ᴏᴛʜᴇʀ ɪɴғᴏ", url="https://t.me/depapancake")
+                        "🍀 ᴏᴛʜᴇʀ ɪɴғᴏ", url="https://t.me/depadidaw")
                 ],
                 [
                     InlineKeyboardButton("⟲ ʙᴀᴄᴋ ⟳", callback_data="home")
@@ -85,13 +85,13 @@ Saya hanya gabut gaada info lebih lanjut karna Kiana88 sibuk dengan Slot nya WD 
             [
                 [
                     InlineKeyboardButton(
-                        "🔗 ɢᴄ", url=f"https://t.me/+biNrspIE2zFmYzk1"),
+                        "🔗 ɢᴄ", url=f"https://t.me/+rktVBMYSOLM4ZmE1"),
                     InlineKeyboardButton(
                         "💌 ᴄʜ", url=f"https://t.me/troubsnout")
                 ],
                 [
                     InlineKeyboardButton(
-                        "👾 ᴏᴡɴ", url="https://t.me/depapancake"),
+                        "👾 ᴏᴡɴ", url="https://t.me/depadidaw"),
                     InlineKeyboardButton(
                         "🤤 ᴄᴏ ᴏᴡɴ", url="https://t.me/kiana88re")
                 ],

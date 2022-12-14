@@ -46,10 +46,10 @@ Hanglo, saya adalah bot yang gagal produk, nama saya adalah Kiana88, sekaligus b
         ],
         [
             InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/troubsnout"),
-            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+biNrspIE2zFmYzk1")
+            InlineKeyboardButton("📣 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+rktVBMYSOLM4ZmE1")
         ],
         [
-            InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/file/e06a886b866383dc9f507.jpg"),
+            InlineKeyboardButton("🧰 ᴏᴡɴᴇʀ", url="https://t.me/depadidaw"),
             InlineKeyboardButton("⚕️ ᴍᴏʀᴇ ɪɴғᴏ", callback_data="moreinfo")
         ]
    
@@ -66,7 +66,7 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+biNrspIE2zFmYzk1"),
+                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+rktVBMYSOLM4ZmE1"),
                 InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/troubsnout"),
             ]
         ]
